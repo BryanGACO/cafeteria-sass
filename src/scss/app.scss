@@ -1,5 +1,11 @@
 $color : red;
+$color2: green;
 
 body{
     background-color: $color;
+    display: flex;
+}
+
+h1{
+    color:$color2;
 }
