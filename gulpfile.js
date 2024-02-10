@@ -16,8 +16,10 @@ function css(done) {
     done();
 }
 
-function dev() {
-    watch('src/scss/app.scss', css);
+function dev() {    
+    //watch('src/scss/header/_header.scss', css);    
+    //watch('src/scss/app.scss', css);
+    watch('src/scss/**/*.scss', css);
 }
 
 exports.css = css;

@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.nav {
+  display: grid;
+}
+
 body {
   background-color: red;
   display: flex;
