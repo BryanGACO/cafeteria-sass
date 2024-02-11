@@ -4,12 +4,13 @@
 .header {
     padding: 5rem 0;
     position: relative;
-    @include m.bgColor(green);
 
-    &::before{
-        content:'';
+    
+    
+    &::before {
+        content: '';
         background-color: v.$negro;
-        position:absolute;
+        position: absolute;
         top: 0;
         right: 0;
         left: 0;
@@ -20,10 +21,9 @@
 
     .contenido-header {
         position: relative;
-        border: 1px solid blue;
     }
 }
 
-.header-inicio{
-    background-image: url('../img/header_inicio.jpg') ;
+.header-inicio {
+    background-image: url('../img/header_inicio.jpg');
 }

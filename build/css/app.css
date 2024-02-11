@@ -369,7 +369,6 @@ h3 {
 .header {
   padding: 5rem 0;
   position: relative;
-  background-color: green;
 }
 .header::before {
   content: "";
@@ -384,7 +383,6 @@ h3 {
 }
 .header .contenido-header {
   position: relative;
-  border: 1px solid blue;
 }
 
 .header-inicio {
