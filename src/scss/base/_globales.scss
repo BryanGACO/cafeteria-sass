@@ -23,6 +23,12 @@ a {
     text-decoration: none;
 }
 
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
 img{
     max-width: 100%;
     display: block; //para eliminar la linea que tienen todas las imagenes en la parte inferior

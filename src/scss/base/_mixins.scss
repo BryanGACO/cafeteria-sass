@@ -1,0 +1,8 @@
+@mixin color {
+    color: black;
+    font-size: 4rem;
+}
+
+@mixin bgColor ($color) {
+    background-color: $color;
+}
