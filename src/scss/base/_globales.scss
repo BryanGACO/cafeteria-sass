@@ -1,22 +1,26 @@
 @use 'variables' as v;
 
 html {
-    font-size:62.5%;
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 
-*,*:before, *:after{
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
-body{
-    font-family: v.$fuente_principal;
+body {
+    font-family: v.$fuenteSecundaria;
     font-size: 1.6rem;
+    background-color: v.$cafeClaro;
 }
 
-p{
+p {
     color: v.$negro;
-    font-size:2rem;
+    font-size: 1.6rem;
+    line-height: 2;
 }
 
 a {
@@ -29,23 +33,13 @@ a {
     margin: 0 auto;
 }
 
-img{
+img {
     max-width: 100%;
     display: block; //para eliminar la linea que tienen todas las imagenes en la parte inferior
 }
 
-h1, h2, h3 {
-    margin: 0 0 v.$separacion 0;
-}
-
-h1{
-    font-size: 4rem;;
-}
-
-h2{
-    font-size: 3.6rem;
-}
-
-h3{
-    font-size: 3.2rem;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
